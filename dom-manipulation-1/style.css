@@ -11,6 +11,11 @@ align-items: center;
 justify-content: center;
 background-color: bisque;
 }
+p{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 h1{
   font-size: 100px;  
