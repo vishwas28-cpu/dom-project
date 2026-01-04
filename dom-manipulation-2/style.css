@@ -15,16 +15,45 @@ background-color: cornsilk;
 #card{
 width: 250px;
 height: 350px;
-background-color: white;
+background-color: aqua;
+position: relative;
+flex-direction: column;
 
 
 }
+h3{
+    top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
 #card img{
-
+     position: absolute;
+    left: 25px;
+    top: 25px;
     width: 200px;
     height: 200px;
-    margin-top: 50px;
     object-fit: cover;
     border-radius: 50%;
-    object-position: center;
+   
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+button{
+    margin-top: 25px;
+    width: 75px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: lightgray;
+    font-weight: 10px;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: lightblue;
 }
